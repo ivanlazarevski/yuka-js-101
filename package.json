@@ -1,0 +1,24 @@
+{
+  "name": "yuka-js-101",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "lil-gui": "^0.20.0",
+    "prettier": "^3.4.1",
+    "three": "^0.170.0",
+    "three-custom-shader-material": "^6.2.0",
+    "vite": "^5.3.3",
+    "vite-plugin-glsl": "^1.3.0",
+    "yuka": "^0.7.8"
+  }
+}

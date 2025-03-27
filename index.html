@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>YukaJS</title>
+  </head>
+  <body>
+    <header
+      class="header flex gap-8 p-4 bg-red-800 text-slate-100 font-bold w-full fixed z-10"
+    >
+      <div class="header-brand">YukaJS 101</div>
+      <nav class="header-nav flex gap-4">
+        <div class="header-nav-item">
+          <a href="/src/pages/steering/index.html">1. Steering</a>
+        </div>
+        <div class="header-nav-item">
+          <a href="/src/pages/vision/index.html">2. Vision</a>
+        </div>
+        <div class="header-nav-item">
+          <a href="/src/pages/finite-state-machine/index.html"
+            >3. Finite State Machine</a
+          >
+        </div>
+        <div class="header-nav-item">
+          <a href="/src/pages/goal-driven-agent/index.html"
+            >4. Goal Driven Agent</a
+          >
+        </div>
+        <div class="header-nav-item">
+          <a href="/src/pages/fuzzy-logic/index.html">5. Fuzzy Logic</a>
+        </div>
+      </nav>
+    </header>
+    <canvas class="webgl"></canvas>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
